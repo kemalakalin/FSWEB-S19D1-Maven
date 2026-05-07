@@ -32,7 +32,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 
 
-@WebMvcTest(value = {ApplicationPropertiesAndControllerTests.class, FruitController.class})
+@WebMvcTest(FruitController.class)
 @ExtendWith(ResultAnalyzer2.class)
 class ApplicationPropertiesAndControllerTests {
 
