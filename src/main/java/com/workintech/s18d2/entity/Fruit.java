@@ -14,7 +14,7 @@ import lombok.Setter;
 @Table(name = "fruit", schema = "fsweb")
 public class Fruit extends Plant {
 
-    @Column(name = "fruit_name")
+    @Column(name = "fruit_type")
     @Enumerated(EnumType.STRING)
     private FruitType fruitType;
 }
