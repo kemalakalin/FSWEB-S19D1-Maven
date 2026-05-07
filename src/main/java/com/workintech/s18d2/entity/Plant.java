@@ -14,7 +14,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @MappedSuperclass
 public class Plant {
-
+//Güncelleme
+    //Güncelleme 2
     @Id
     @GeneratedValue
     @Column(name = "id")
